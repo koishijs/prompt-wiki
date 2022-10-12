@@ -14,11 +14,13 @@ export default defineConfig({
     }, {
       text: '参考',
       items: [
+        { text: '风格', link: '/tags/style' },
         { text: '头发', link: '/tags/hair' },
         { text: '表情', link: '/tags/face' },
         { text: '衣着', link: '/tags/cloth' },
         { text: '装饰', link: '/tags/accessory' },
         { text: '姿势', link: '/tags/pose' },
+        { text: '环境', link: '/tags/environment' },
       ],
     }, {
       text: '更多',
@@ -26,6 +28,14 @@ export default defineConfig({
         { text: 'NovelAI Bot', link: 'https://novelai.koishi.chat' },
       ],
     }],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/koishijs/prompt-wiki' },
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/koishijs/prompt-wiki/edit/main/:path',
+    },
   },
 
   vite: {
