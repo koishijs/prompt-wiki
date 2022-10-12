@@ -14,9 +14,16 @@ export default defineConfig({
     }, {
       text: '参考',
       items: [
-        { text: '风格', link: '/tags/style' },
-        { text: '人物', link: '/tags/body' },
-        { text: '服饰', link: '/tags/attire' },
+        { text: '头发', link: '/tags/hair' },
+        { text: '表情', link: '/tags/face' },
+        { text: '衣着', link: '/tags/cloth' },
+        { text: '装饰', link: '/tags/accessory' },
+        { text: '姿势', link: '/tags/pose' },
+      ],
+    }, {
+      text: '更多',
+      items: [
+        { text: 'NovelAI Bot', link: 'https://novelai.koishi.chat' },
       ],
     }],
   },
